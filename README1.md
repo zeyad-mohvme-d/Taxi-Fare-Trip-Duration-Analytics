@@ -27,9 +27,6 @@ The project answers questions like:
 - A real taxi dataset was downloaded.
 - The data was loaded so it could be analyzed.
 
-### Why This Matters
-You cannot analyze anything without data. This step makes sure we start with real information.
-
 ---
 
 ## Phase 2: Understanding How Taxi Prices Work
@@ -37,7 +34,7 @@ You cannot analyze anything without data. This step makes sure we start with rea
 ### What Happened
 We assumed taxi prices depend on:
 - Distance traveled
-- Time spent in the trip
+- Time spent on the trip
 - Fixed base fare
 
 ### Why This Matters
@@ -62,7 +59,7 @@ This helps us understand the data before making conclusions.
 ### What Happened
 - Removed duplicate records.
 - Filled missing values.
-- Removed unrealistic values (very large or very small numbers).
+- Removed unrealistic values (very large or minimal numbers).
 - Simplified prices using a mathematical transformation.
 
 ### Why This Matters
@@ -99,7 +96,7 @@ Taxi prices depend on more than one thing at the same time.
 ## Phase 7: Finding What Matters Most
 
 ### What Happened
-Different methods were used to find the most important factors affecting price.
+Different methods were employed to identify the most significant factors influencing price.
 
 ### Final Important Factors
 - Distance
@@ -158,11 +155,4 @@ It makes complex data easier to understand.
 - Pricing appears fair and consistent.
 
 ---
-
-## Who This Project Is For
-
-- Students
-- Instructors
-- Non-technical decision makers
-- Anyone curious about taxi pricing
 
